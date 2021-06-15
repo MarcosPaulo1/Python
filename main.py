@@ -210,7 +210,7 @@ class Application:
         self.txtcampus_materia["font"] = self.fonte
         self.txtcampus_materia.pack(side=LEFT)
 
-        self.lblprofessor_materia= Label(self.container6, text="Professor da matéria:",font=self.fonte, width=14)
+        self.lblprofessor_materia= Label(self.container6, text="Professor da matéria:",font=self.fonte, width=16)
         self.lblprofessor_materia.pack(side=LEFT)
 
         self.txtprofessor_materia = Entry(self.container6)
